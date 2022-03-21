@@ -1,0 +1,18 @@
+{
+  "name": "demodav",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --publish"
+  },
+  "author": "FM",
+  "license": "ISC",
+  "dependencies": {
+    "allure-cucumberjs": "^2.0.0-beta.15",
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2"
+  }
+}
